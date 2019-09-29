@@ -6,6 +6,8 @@ The goal is to replicate and improve the styling of the old site while improving
 
 - New site will have improved aesthetics, responsiveness, performance, and an admin feature that gives administrators interface to change basic website layout without programming. [Link to new site](https://zombiefestlj.firebaseapp.com/)
 - Test authentication features with test email 'tryme@email.com' and test password 'password'
+
+
 ![image of home page after login and settings](appearance.JPG)
 ### `Technologies Used`
 - UI created with React, Material-UI
