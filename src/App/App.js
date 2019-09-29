@@ -1,6 +1,5 @@
 // React
 import React, { Component } from 'react';
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // validate.js
@@ -15,7 +14,6 @@ import readingTime from 'reading-time';
 
 // Material-UI
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
-
 import Hidden from '@material-ui/core/Hidden';
 import TextField from '@material-ui/core/TextField';
 import Snackbar from '@material-ui/core/Snackbar';
@@ -24,14 +22,10 @@ import Snackbar from '@material-ui/core/Snackbar';
 import colors from '../colors';
 import settings from '../settings';
 import constraints from '../constraints';
-
 import LaunchScreen from '../layout/LaunchScreen/LaunchScreen';
-
 import Bar from '../layout/Bar/Bar';
-
 import HomeContent from '../content/HomeContent/HomeContent';
 import NotFoundContent from '../content/NotFoundContent/NotFoundContent';
-
 import SignUpDialog from '../dialogs/SignUpDialog/SignUpDialog';
 import SignInDialog from '../dialogs/SignInDialog/SignInDialog';
 import ResetPasswordDialog from '../dialogs/ResetPasswordDialog/ResetPasswordDialog';
