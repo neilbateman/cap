@@ -3,8 +3,8 @@ The goal is to replicate and improve the styling of the old site while improving
 
 ### `Purpose`
 - To create a new website for the Lake Jackson ZombieFest 5K.
- [Link to original site](https://zombiefest.org/)
- [Link to new site](https://zombiefestlj.firebaseapp.com/)
+-[Link to original site](https://zombiefest.org/)
+-[Link to new site](https://zombiefestlj.firebaseapp.com/)
 - New site will have improved aesthetics, responsiveness, performance, and an admin feature that gives administrators interface to change basic website layout without programming.
 ### `Technologies Used`
 - UI created with React, Material-UI
@@ -15,4 +15,4 @@ The goal is to replicate and improve the styling of the old site while improving
 
 ## Component Tree
 
-![image of component tree](assets/capstone-component-tree.png)
+![image of component tree](capstone-component-tree.png)
