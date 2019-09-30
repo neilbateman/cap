@@ -11,6 +11,7 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 
 import PersonIcon from '@material-ui/icons/Person';
+import Nav from '../../pages/src/Components/Nav';
 
 const styles = (theme) => ({
   signUpButton: {
@@ -72,7 +73,7 @@ class Bar extends Component {
     return (
       <AppBar color="primary" position="static">
         <Toolbar variant="regular">
-          <Typography style={{ flexGrow: 1 }} color="inherit" variant="h6">{title}</Typography>
+         {isSignedIn ? <Nav/> :  <Typography style={{ flexGrow: 1 }} color="inherit" variant="h6"> {title}</Typography>}
 
           {isSignedIn &&
             <React.Fragment>

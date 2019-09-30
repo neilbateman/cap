@@ -4,6 +4,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  background-image: url(./assets/Backgroundp.png), linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3));
+  margin: 0;
+  background-color: blueviolet;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

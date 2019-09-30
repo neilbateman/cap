@@ -6,6 +6,7 @@ import Fab from '@material-ui/core/Fab';
 import FindIcon from '@material-ui/icons/FindInPage';
 import HomeIcon from '@material-ui/icons/Home';
 import EmptyState from '../../layout/EmptyState/EmptyState';
+import App from '../../pages/src/App';
 
 const styles = (theme) => ({
   emptyStateIcon: {
@@ -24,19 +25,9 @@ const styles = (theme) => ({
 class NotFoundContent extends Component {
   render() {
     // Styling
-    const { classes } = this.props;
 
     return (
-      <EmptyState
-        icon={<FindIcon className={classes.emptyStateIcon} color="action" />}
-        title="Content Not Found"
-        description="The requested URL was not found on this server"
-        button={
-          <Fab className={classes.button} color="secondary" component={Link} to="/" variant="extended">
-            <HomeIcon className={classes.buttonIcon} /> Go Home
-          </Fab>
-        }
-      />
+<App/>
     );
   }
 }
